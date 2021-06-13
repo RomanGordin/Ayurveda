@@ -1,0 +1,29 @@
+https://github.com/verlok/vanilla-lazyload
+
+< img  alt = "a lazy image" data-src = " lazy.jpg" />
+Стандарт
+
+<img alt="A lazy image" src="lazy-lowQuality.jpg" data-src="lazy.jpg" />
+Ленивая прослойка
+
+<img
+   alt="A lazy image"
+   class="lazy"
+   data-src="lazy.jpg"
+   data-srcset="lazy_400.jpg 400w, 
+   lazy_800.jpg 800w"
+   data-sizes="100w"
+/>
+Дисплэй соурс
+
+<div
+  class="lazy"
+  data-bg-multi="url(lazy-head.jpg),
+    url(lazy-body.jpg),
+    linear-gradient(#fff, #ccc)"
+  data-bg-multi-hidpi="url(lazy-head@2x.jpg),
+    url(lazy-body@2x.jpg),
+    linear-gradient(#fff, #ccc)"
+>
+  ...
+</div>
