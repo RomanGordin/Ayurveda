@@ -343,7 +343,7 @@
       content: '';
       display: block;
       bottom: -20px;
-      transition: bottom 0.2s;
+      transition: bottom 0.4s;
    }
 
    .header__navigation .item a.active::before {
