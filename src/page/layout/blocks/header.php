@@ -47,7 +47,7 @@
          <div class="container">
             <div class="main_wrapper d-flex">
                <div class="main__logo">
-                  <img class="logo_image" src="<?echo ($_SERVER['header_logo']);?>" alt="">
+                  <a href="/" style="display: block;"><img class="logo_image" src="<?echo ($_SERVER['header_logo']);?>" alt=""></a>
                </div>
                <div class="main__search">
                   <input type="text" name="search" placeholder="Поиск по каталогу...">
